@@ -1,44 +1,378 @@
-<div data-v-5e9078c0=""><h1 data-v-5e9078c0="">
-      Top 31 Hash Tables interview
-      questions and answers in 2021.
-    </h1> <p data-v-5e9078c0="" align="center"><a data-v-5e9078c0="" href="https://devinterview.io/"><img data-v-5e9078c0="" src="https://source.unsplash.com/collection/52661698/700x350"></a></p> <p data-v-5e9078c0="">
-      You can check all
-      31
-      Hash Tables interview questions here 👉
-      https://devinterview.io/data/hashTables-interview-questions
-    </p> <br data-v-5e9078c0=""> <div data-v-5e9078c0="" class="unit"><div><h2>🔹 1. What is Hash Table?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A <strong>hash table</strong> (hash map) is a data structure that implements an <strong>associative</strong> array abstract data type, a <strong>structure</strong> that can <strong>map keys to values</strong>. Hash tables implement an associative array, which is indexed by arbitrary objects (keys). A hash table uses a <strong>hash function</strong> to compute an <strong>index</strong>, also called a <strong>hash value</strong>, into an <strong>array of buckets</strong> or slots, from which the desired <strong>value</strong> can be found.</p><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://en.wikipedia.org/wiki/Hash_table" rel="noreferrer" target="_blank" title="What is Hash Table? Interview Questions Source To Answer">en.wikipedia.org</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 2. What is the space complexity of a Hash Table?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The space complexity of a datastructure indicates how much space it occupies in relation to the amount of elements it holds. For example a space complexity of <code>O(1)</code> would mean that the datastructure alway consumes constant space no matter how many elements you put in there. <code>O(n)</code> would mean that the space consumption grows linearly with the amount of elements in it.</p><p>A <strong>hashtable</strong> typically has a space complexity of <code>O(n)</code>.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/6529966/what-is-the-space-complexity-of-a-hash-table" rel="noreferrer" target="_blank" title="What is the space complexity of a Hash Table? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 3. Explain what is Hash Value?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A <strong>Hash Value</strong> (also called as Hashes or Checksum) is a string value (of specific length), which is the result of calculation of a Hashing Algorithm. Hash Values have different uses:</p><ol><li>Indexing for Hash Tables</li><li>Determine the Integrity of any Data (which can be a file, folder, email, attachments, downloads etc).</li></ol></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.omnisecu.com/tcpip/what-are-hash-values-important-hash-value-algorithms.php" rel="noreferrer" target="_blank" title="Explain what is Hash Value? Interview Questions Source To Answer">www.omnisecu.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 4. Define what is a Hash Function?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A <strong>hash function</strong> is any function that can be used to map data of arbitrary size to fixed-size values. The values returned by a hash function are called <em>hash values</em>, hash codes, digests, or simply hashes. The values are used to index a fixed-size table called a hash table. Use of a hash function to index a hash table is called <em>hashing</em> or <em>scatter storage addressing</em>.</p><p>Mathematically speaking, a <strong>hash function</strong> is usually defined as a mapping from the universe of elements you want to store in the hash table to the range <code>{0, 1, 2, .., numBuckets - 1}</code>. </p><p>Some properties of Hash Functions are:</p><ul><li>Very fast to compute (nearly constant)</li><li>One way; can not be reversed</li><li>Output does not reveal information on input</li><li>Hard to find collisions (different data with same hash)</li><li>Implementation is based on parity-preserving bit operations (XOR and ADD), multiply, or divide. </li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://en.wikipedia.org/wiki/Hash_function" rel="noreferrer" target="_blank" title="Define what is a Hash Function? Interview Questions Source To Answer">en.wikipedia.org</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 5. What is Hashing?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>Hashing</strong> is the practice of using <strong>an algorithm (or hash function)</strong> to map data of <em>any</em> size to a <em>fixed</em> length. This is called a hash value (or sometimes hash code or hash sums or even a hash digest if you’re feeling fancy). In hashing, keys are converted into <em>hash values</em> or <em>indexes</em> by using <strong>hash functions</strong>. Hashing is a one-way function.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.thesslstore.com/blog/difference-encryption-hashing-salting/" rel="noreferrer" target="_blank" title="What is Hashing? Interview Questions Source To Answer">www.thesslstore.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 6. What is the difference between Hashing and Hash Tables?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><ul><li><p><strong>Hashing</strong> is simply the act of turning a data chunk of arbitrary length into a fixed-width value (hereinafter called a hash value) that can be used to represent that chunk in situations where dealing with the original data chunk would be inconvenient.</p></li><li><p>A <strong>hash table</strong> is one of those situations; it simply stores references to such data chunks in a table indexed by each chunk's hash value. This way, instead of potentially comparing your desired key chunk against a huge number of chunks, you simply compute the hash value of the key chunk and do a much faster lookup with that hash value.</p></li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.quora.com/What-is-the-difference-between-hashing-and-hash-tables" rel="noreferrer" target="_blank" title="What is the difference between _Hashing_ and _Hash Tables_? Interview Questions Source To Answer">www.quora.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 7. Provide a simple example of Hash Function</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A one-way function is not just a hash function - a function that loses information - but a function <code>f</code> for which, given an image <code>y</code>, it is difficult to find a pre-image x such that <code>f(x)=y</code>.</p><p>A very simple example of a hash function that does not use any advanced math, is this simple<strong> parity function</strong>:</p><pre><code>def hash(n: Nat)
-  if n.even?
-    0
-  else
-    1
-  end
-end</code></pre><p>As you can see, it maps a large input space (the natural numbers) into a small output space (the set <code>{0, 1}</code>). And it is one-way: if I tell you that the result is <code>1</code>, you can't tell me what the input was.</p><p>This is why they are called one-way: you can compute an image but you can't find a pre-image for a given image.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/1240852/is-it-possible-to-decrypt-md5-hashes/1240869" rel="noreferrer" target="_blank" title="Provide a simple example of Hash Function Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 8. Detect if a List is Cyclic using Hash Table</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>To detect if a list is cyclic, we can check whether a node had been visited before. A natural way is to use a hash table.</p><p><strong>Algorithm</strong></p><p>We go through each node one by one and record each node's reference (or memory address) in a hash table. If the current node is <code>null</code>, we have reached the end of the list and it must not be cyclic. If current node’s reference is in the hash table, then return true.</p></div></div><div><div class="mb-2 mt-2"><span class="h5">Complexity Analysis</span></div><div class="hide-small"><div class="row no-gutters my-2 align-items-end"><div class="col font-weight-bold text-muted">Time:</div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Constant</div><div class="complexity amazing first p-1 justify-content-center shadow-text">O(1)</div></div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Dbl. Logarithmic</div><div class="complexity good p-1 justify-content-center shadow-text">O(log log n)</div></div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Logarithmic</div><div class="complexity good p-1 justify-content-center shadow-text">O(log n)</div></div><div class="col disable text-center"><div class="font-weight-bold  text-muted justify-content-center">Square Root</div><div class="complexity fair p-1 justify-content-center shadow-text ">O(√n)</div></div><div class="col text-center"><div class="font-weight-bold  text-muted justify-content-center">Linear</div><div class="complexity fair p-1 justify-content-center shadow-text selected-complexity effect7">O(n)</div></div><div class="col disable text-center"><div class="font-weight-bold text-muted justify-content-center">Linearithmic</div><div class="complexity bad p-1 justify-content-center shadow-text ">O(n log n)</div></div><div class="col disable text-center"><div class="font-weight-bold  text-muted justify-content-center">Quadratic</div><div class="complexity terrible p-1 justify-content-center shadow-text "><i>O</i>(<i>n</i><sup>2</sup>)</div></div><div class="col disable text-center"><div class="font-weight-bold   text-muted justify-content-center">Exponential</div><div class="complexity terrible p-1 justify-content-center shadow-text "><i>O</i>(<i>2</i><sup>n</sup>)</div></div><div class="col disable text-center"><div class="font-weight-bold text-muted">Factorial</div><div class="complexity terrible last p-1 justify-content-center shadow-text ">O(n!)</div></div></div></div><div class="hide-small"><div class="row no-gutters my-2 align-items-end"><div class="col font-weight-bold text-muted">Space:</div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Constant</div><div class="complexity amazing first p-1 justify-content-center shadow-text">O(1)</div></div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Dbl. Logarithmic</div><div class="complexity good p-1 justify-content-center shadow-text">O(log log n)</div></div><div class="col disable text-center"><div class="text-muted font-weight-bold justify-content-center">Logarithmic</div><div class="complexity good p-1 justify-content-center shadow-text">O(log n)</div></div><div class="col disable text-center"><div class="font-weight-bold  text-muted justify-content-center">Square Root</div><div class="complexity fair p-1 justify-content-center shadow-text ">O(√n)</div></div><div class="col text-center"><div class="font-weight-bold  text-muted justify-content-center">Linear</div><div class="complexity fair p-1 justify-content-center shadow-text selected-complexity effect7">O(n)</div></div><div class="col disable text-center"><div class="font-weight-bold text-muted justify-content-center">Linearithmic</div><div class="complexity bad p-1 justify-content-center shadow-text ">O(n log n)</div></div><div class="col disable text-center"><div class="font-weight-bold   text-muted justify-content-center">Quadratic</div><div class="complexity terrible p-1 justify-content-center shadow-text "><i>O</i>(<i>n</i><sup>2</sup>)</div></div><div class="col disable text-center"><div class="font-weight-bold   text-muted justify-content-center">Exponential</div><div class="complexity terrible p-1 justify-content-center shadow-text "><i>O</i>(<i>2</i><sup>n</sup>)</div></div><div class="col disable text-center"><div class="font-weight-bold text-muted">Factorial</div><div class="complexity terrible last p-1 justify-content-center shadow-text ">O(n!)</div></div></div></div><div class="hide-large"><p><b>Time:</b> <mark>O(n)</mark></p><p><b>Space:</b> <mark>O(n)</mark></p></div><div class="mt-3"><div><div class="AnswerBody"><ul><li>Time complexity : <code><i>O</i>(<i>n</i>)</code> . We visit each of the <code>n</code> elements in the list at most once. Adding a node to the hash table costs only <code><i>O</i>(<i>1</i>)</code> time.</li><li>Space complexity: <code><i>O</i>(<i>n</i>)</code> . The space depends on the number of elements added to the hash table, which contains at most <code>n</code> elements.</li></ul></div></div></div></div><div style="font-size: 14px;"><div class="mb-3 mt-2"><span class="h5">Implementation</span></div><div><nav class="mdc-tab-bar"><div class="mdc-tab-scroller"><div class="mdc-tab-scroller__scroll-area mdc-tab-scroller__scroll-area--scroll" style="margin-bottom: 0px;"><div class="mdc-tab-scroller__scroll-content"><button class="mdc-ripple-upgraded mdc-ripple-upgraded--background-focused mdc-tab mdc-tab--min-width mdc-tab--active" aria-selected="true" tabindex="0"><div class="mdc-tab__content"><span class="mdc-tab__text-label"><span>Java</span>&nbsp;<span class="shadow-text lang-badge java">Java</span></span></div><span class="mdc-tab-indicator mdc-tab-indicator--active"><span aria-hidden="true" class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span></span><div class="mdc-tab__ripple mdc-ripple-upgraded mdc-ripple-upgraded--background-focused"></div></button></div></div></div></nav></div><div class="mt-2"><div class="AnswerBody"><pre><code><span class="token cVar">public</span> <span class="token cVar">boolean</span> <span class="token cMod">hasCycle</span><span class="token cBase">(</span><span class="token class-name">ListNode</span> head<span class="token cBase">)</span> <span class="token cBase">{</span>
-    <span class="token class-name">Set</span><span class="token generics"><span class="token cBase">&lt;</span><span class="token class-name">ListNode</span><span class="token cBase">&gt;</span></span> nodesSeen <span class="token cBase">=</span> <span class="token cVar">new</span> <span class="token class-name">HashSet</span><span class="token generics"><span class="token cBase">&lt;</span><span class="token cBase">&gt;</span></span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">;</span>
-    <span class="token cVar">while</span> <span class="token cBase">(</span>head <span class="token cBase">!=</span> <span class="token cVar">null</span><span class="token cBase">)</span> <span class="token cBase">{</span>
-        <span class="token cVar">if</span> <span class="token cBase">(</span>nodesSeen<span class="token cBase">.</span><span class="token cMod">contains</span><span class="token cBase">(</span>head<span class="token cBase">)</span><span class="token cBase">)</span> <span class="token cBase">{</span>
-            <span class="token cVar">return</span> <span class="token cBool">true</span><span class="token cBase">;</span>
-        <span class="token cBase">}</span> <span class="token cVar">else</span> <span class="token cBase">{</span>
-            nodesSeen<span class="token cBase">.</span><span class="token cMod">add</span><span class="token cBase">(</span>head<span class="token cBase">)</span><span class="token cBase">;</span>
-        <span class="token cBase">}</span>
-        head <span class="token cBase">=</span> head<span class="token cBase">.</span>next<span class="token cBase">;</span>
-    <span class="token cBase">}</span>
-    <span class="token cVar">return</span> <span class="token cBool">false</span><span class="token cBase">;</span>
-<span class="token cBase">}</span></code></pre></div></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://leetcode.com/problems/linked-list-cycle/solution/" rel="noreferrer" target="_blank" title="Detect if a List is Cyclic using Hash Table Interview Questions Source To Answer">leetcode.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 9. What does "bucket entries" mean in the context of a hashtable?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/hashTables-interview-questions">all 31 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 10. Explain in simple terms how Hash Tables are implemented?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/hashTables-interview-questions">all 31 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 11. What is the significance of load factor of a Hash Table?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/hashTables-interview-questions">all 31 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 12. What is complexity of Hash Table?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/hashTables-interview-questions">all 31 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 13. What is Hash Collision?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/hashTables-interview-questions">all 31 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 14. What is hashing algorithm? How it works?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/hashTables-interview-questions">all 31 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 15. What is MD5?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/hashTables-interview-questions">all 31 answers</a></div> <br><br></div> <div data-v-5e9078c0="" class="end"></div> <br data-v-5e9078c0="">
-    Thanks 🙌 for reading and good luck on your next tech interview!
-    <br data-v-5e9078c0="">
-    Explore 3800+ dev interview question here 👉
-    <a data-v-5e9078c0="" href="https://devinterview.io/">Devinterview.io</a></div>
+# ⚫ Hash Tables in Tech Interviews 2024: 19 Must-Know Questions & Answers
+
+**Hash Tables** are data structures that store key-value pairs and allow for fast data retrieval based on the key. By utilizing a hashing function, they offer average constant time complexity for search operations. In coding interviews, they are used to evaluate a candidate's understanding of **efficient data storage** and **collision resolution** techniques.
+
+Check out our carefully selected list of **basic** and **advanced** Hash Tables questions and answers to be well-prepared for your tech interviews in 2024.
+
+![Hash Tables Decorative Image](https://storage.googleapis.com/dev-stack-app.appspot.com/blogImg/hashTables.png?GoogleAccessId=firebase-adminsdk-bgeaf%40dev-stack-app.iam.gserviceaccount.com&Expires=1698605921&Signature=EJ5qV9vlokQXzpbQ1fuuOI06RnPH3YdE9MgVcKvEU4ukgxXLTAB0jt1SJDrMHuQ%2F8vJbhqOA%2F1KVcNEhHpwaM4mPcMdhEDAbP5uVh%2BIVPhjnujQ299Y6zSemw%2FvLP8fxeEJBCv6KpXwA7okz4usq6SRhKnA9mLZ2GSW7hpgiKyrAFG%2FinpvBgXV0Zw%2Fhn63R8ckb3sG5IGY9jmWFvPjf2dNzLOBOW8NQ3Q%2FMcA3domZa1P8j4JH9QtXhblt4qWXb58vta06GvXzHa7hexovSzJx1VXGRgEpr3PABnWiiv1i7f3Qgd11CC4dEHDFR2cBWLClfUs5z9iIhFjwQCzLNog%3D%3D)
+
+👉🏼 You can also find all answers here: [Devinterview.io - Hash Tables](https://devinterview.io/data/hashTables-interview-questions)
+
+---
+
+## 🔹 1. What is a _Hash Table_?
+
+### Answer
+
+A **Hash Table**, also known as a **Hash Map**, is a data structure that provides a mechanism to **store** and **retrieve data** based on **key-value** pairs.
+
+It is an **associative array** abstract data type where the key is hashed, and the resulting hash value is used as an index to locate the corresponding value in a **bucket** or **slot**.
+
+### Key Features
+
+- **Unique Keys**: Each key in the hash table maps to a single value.
+- **Dynamic Sizing**: Can adjust its size based on the number of elements.
+- **Fast Operations**: Average time complexity for most operations is $O(1)$.
+
+### Visual Representation
+
+![Hash Table Example](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Hash_table_3_1_1_0_1_0_0_SP.svg/1920px-Hash_table_3_1_1_0_1_0_0_SP.svg.png)
+
+### Core Components
+
+#### Hash Function
+
+The **hash function** converts each key to a numerical **hash value**, which is then used to determine the storage location, or "bucket."
+
+#### Buckets
+
+**Buckets** are containers within the hash table that hold the key-value pairs. The hash function aims to distribute keys uniformly across buckets to minimize collisions.
+
+### Collision Handling
+
+- **Open-Addressing**: Finds the next available bucket if a collision occurs.
+- **Chaining**: Stores colliding keys in a linked list within the same bucket.
+
+### Complexity Analysis
+
+- **Time Complexity**: $O(1)$ - average and best-case, $O(n)$ - worst-case.
+- **Space Complexity**: $O(n)$
+
+### Code Example: Hash Table
+
+Here is the Python code:
+
+```python
+# Initialize a hash table
+hash_table = {}
+
+# Add key-value pairs
+hash_table['apple'] = 5
+hash_table['banana'] = 2
+hash_table['cherry'] = 3
+
+# Retrieve a value
+print(hash_table['apple'])  # Output: 5
+
+# Update a value
+hash_table['banana'] = 4
+
+# Remove a key-value pair
+del hash_table['cherry']
+```
+
+---
+
+## 🔹 2. Explain the _Time_ and _Space Complexity_ of a _Hash Table_.
+
+### Answer
+
+**Hash tables** offer impressive time and space performance under most conditions. Here's a detailed breakdown:
+
+### Time Complexity
+
+- **Best Case $O(1)$**: With uniform distribution and no collisions, fundamental operations like lookup, insertion, and deletion are constant-time.
+
+- **Average and Amortized Case $O(1)$**: Even with occasional collisions and rehashing, most operations typically remain constant-time. While rehashing can sometimes take $O(n)$, its infrequency across many $O(1)$ operations ensures an overall constant-time complexity.
+
+- **Worst Case $O(n)$**: Arises when all keys map to one bucket, forming a linked list. Such cases are rare and typically result from suboptimal hash functions or unique data distributions.
+
+### Space Complexity $O(n)$
+
+The primary storage revolves around the $n$ elements in the table. Additional overhead from the structure itself is minimal, ensuring an upper bound of $O(n)$. The "load factor," indicating the ratio of stored elements to the table's capacity, can impact memory use.
+
+---
+
+## 🔹 3. What is _Hashing_?
+
+### Answer
+
+**Hashing** is a method that maps data to fixed-size values, known as **hash values**, for efficient storage and retrieval. A **hash function** generates these values, serving as the data's unique identifier or key.
+
+### Key Features
+
+- **Speed**: Hashing offers constant-time complexity for data operations.
+- **Data Integrity**: A good hash function ensures even minor data changes will yield different hash values.
+- **Security**: Cryptographic hashes are essential in secure data transmission.
+- **Collision Management**: While hash collisions can occur, they are manageable and typically rare.
+
+### Hash Functions and Hash Values
+
+A **hash function** generates a fixed-size **hash value**, serving as the data's unique identifier or key for various applications like data indexing and integrity checks. Hash values are typically represented as **hexadecimal numbers**.
+
+#### Key Characteristics
+
+- **Deterministic**: The same input will always produce the same hash value.
+- **Fixed-Length Output**: Outputs have a consistent length, making them suitable for data structures like hash tables.
+- **Speed**: Hash functions are designed for quick computation.
+- **One-Way Functionality**: Reconstructing the original input from the hash value should be computationally infeasible.
+- **Avalanche Effect**: Small input changes should result in significantly different hash values.
+- **Collision Resistance**: While it's difficult to completely avoid duplicate hash values for unique inputs, well-designed hash functions aim to minimize this risk.
+
+### Popular Hashing Algorithms
+
+- **MD5**: Obsolete due to vulnerabilities.
+- **SHA Family**:
+  - SHA-1: Deprecated; collision risks.
+  - SHA-256: Widely used in cryptography.
+
+### Practical Applications
+
+- **Databases**: For quick data retrieval through hash indices.
+- **Distributed Systems**: For data partitioning and load balancing.
+- **Cryptography**: To ensure data integrity.
+- **Caching**: For efficient in-memory data storage and access.
+
+### Code Example: SHA-256 with `hashlib`
+
+Here is the Python code:
+
+```python
+import hashlib
+
+def compute_sha256(s):
+    hasher = hashlib.sha256(s.encode())
+    return hasher.hexdigest()
+
+print(compute_sha256("Hello, World!"))
+```
+
+---
+
+## 🔹 4. Explain the difference between _Hashing_ and _Hash Tables_.
+
+### Answer
+
+When discussing **Hashing** and **Hash Tables**, it's crucial to recognize that one is a **technique** while the other is a **data structure**. Here's a side-by-side comparison:
+
+### Key Distinctions
+
+#### Definition
+
+- **Hashing**: A computational technique that converts input (often a string) into a fixed-size value, referred to as a hash value.
+- **Hash Tables**: A data structure that utilizes hash values as keys to efficiently store and retrieve data in memory.
+
+#### Primary Function
+
+- **Hashing**: To generate a unique identifier (hash value) for a given input, ensuring consistency and rapid computation.
+- **Hash Tables**: To facilitate quick access to data by mapping it to a hash value, which determines its position in the table.
+
+#### Application Areas
+
+- **Hashing**: Common in cryptography for secure data transmission, data integrity checks, and digital signatures.
+- **Hash Tables**: Used in programming and database systems to optimize data retrieval operations.
+
+#### Inherent Complexity
+
+- **Hashing**: Focuses solely on deriving a hash value from input data.
+- **Hash Tables**: Incorporates mechanisms to manage issues like hash collisions (when two distinct inputs produce the same hash value) and may also involve dynamic resizing to accommodate growing datasets.
+
+#### Operational Performance
+
+- **Hashing**: Producing a hash value is typically an $O(1)$ operation, given a consistent input size.
+- **Hash Tables**: On average, operations such as data insertion, retrieval, and deletion have $O(1)$ time complexity, although worst-case scenarios can degrade performance.
+
+#### Persistence
+
+- **Hashing**: Transient in nature; once the hash value is generated, the original input data isn't inherently stored or preserved.
+- **Hash Tables**: Persistent storage structure; retains both the input data and its corresponding hash value in the table.
+
+---
+
+## 🔹 5. Provide a simple example of a _Hash Function_.
+
+### Answer
+
+The **parity function** can serve as a rudimentary example of a **hash function**. It takes a single input, usually an integer, and returns either `0` or `1` based on whether the input number is even or odd.
+
+### Properties of the Parity Function
+
+- **Deterministic**: Given the same number, the function will always return the same output.
+- **Efficient**: Computing the parity of a number can be done in constant time.
+- **Small Output Space**: The output is limited to two possible values, `0` or `1`.
+- **One-Way Function**: Given one of the outputs (`0` or `1`), it is impossible to determine the original input.
+
+### Code Example: Parity Function
+
+Here is the Python code:
+
+```python
+def hash_parity(n: int) -> int:
+    if n % 2 == 0:
+        return 0
+    return 1
+```
+
+### Real-World Hash Functions
+
+While the parity function serves as a simple example, **real-world hash functions** are much more complex. They often use cryptographic algorithms to provide a higher level of security and other features like the ones mentioned below:
+
+- **Cryptographic Hash Functions**: Designed to be secure against various attacks like pre-image, second-pre-image, and collision.
+- **Non-Cryptographic Hash Functions**: Used for general-purpose applications, data storage, and retrieval.
+- **Perfect Hash Functions**: Provide a unique hash value for each distinct input.
+
+---
+
+## 🔹 6. What are _Hash Collisions_?
+
+### Answer
+
+In hash functions and tables, a **hash collision** occurs when two distinct keys generate the same hash value or index. Efficiently addressing these collisions is crucial for maintaining the hash table's performance.
+
+### Causes of Collisions
+
+- **Hash Function Limitations**: No hash function is perfect; certain datasets may result in more collisions.
+- **Limited Hash Space**: Due to the Pigeonhole Principle, if there are more unique keys than slots, collisions are inevitable.
+
+### Collisions Types
+
+- **Direct**: When two keys naturally map to the same index.
+- **Secondary**: Arising during the resolution of a direct collision, often due to strategies like chaining or open addressing.
+
+### Probability
+
+The likelihood of a collision is influenced by the hash function's design, the number of available buckets, and the table's load factor.
+
+**Worst-case** scenarios where all keys collide to the same index, can degrade a hash table's performance from $O(1)$ to $O(n)$.
+
+### Strategies for Collision Resolution
+
+- **Chaining**: Each slot in the hash table contains a secondary data structure, like a linked list, to hold colliding keys.
+- **Open Addressing**: The hash table looks for the next available slot to accommodate the colliding key.
+- **Cryptographic Hash Functions**: These are primarily used to ensure data integrity and security due to their reduced collision probabilities. However, they're not commonly used for general hash tables because of their slower performance.
+
+### Illustrative Example
+
+Consider a hash table that employs chaining to resolve collisions:
+
+| Index | Keys        |
+|-------|-------------|
+| 3     | key1, key2  |
+
+Inserting a new key that hashes to index 3 causes a collision. With chaining, the new state becomes:
+
+| Index | Keys           |
+|-------|----------------|
+| 3     | key1, key2, key7 |
+
+### Key Takeaways
+
+- **Hash Collisions are Inevitable**: Due to inherent mathematical and practical constraints.
+- **Strategies Matter**: The efficiency of a hash table can be significantly influenced by the chosen collision resolution strategy.
+- **Probability Awareness**: Being aware of collision probabilities is vital, especially in applications demanding high performance or security.
+
+---
+## 🔹 7. What is a _Pigeonhole Principle_?
+
+### Answer
+
+👉🏼 Check out all 19 answers here: [Devinterview.io - Hash Tables](https://devinterview.io/data/hashTables-interview-questions)
+
+---
+
+## 🔹 8. Name some _Collision Handling Techniques_.
+
+### Answer
+
+👉🏼 Check out all 19 answers here: [Devinterview.io - Hash Tables](https://devinterview.io/data/hashTables-interview-questions)
+
+---
+
+## 🔹 9. What is the difference between a _Hash Function_ and a _Cryptographic Hash Function_?
+
+### Answer
+
+👉🏼 Check out all 19 answers here: [Devinterview.io - Hash Tables](https://devinterview.io/data/hashTables-interview-questions)
+
+---
+
+## 🔹 10. What is the role of a _Salt_ in _Cryptographic Hashing_?
+
+### Answer
+
+👉🏼 Check out all 19 answers here: [Devinterview.io - Hash Tables](https://devinterview.io/data/hashTables-interview-questions)
+
+---
+
+## 🔹 11. Explain _Types of Resistance_ in _Cryptographic Hash Functions_.
+
+### Answer
+
+👉🏼 Check out all 19 answers here: [Devinterview.io - Hash Tables](https://devinterview.io/data/hashTables-interview-questions)
+
+---
+
+## 🔹 12. What is _MD5_?
+
+### Answer
+
+👉🏼 Check out all 19 answers here: [Devinterview.io - Hash Tables](https://devinterview.io/data/hashTables-interview-questions)
+
+---
+
+## 🔹 13. What is a _Load Factor_ in the context of _Hash Tables_?
+
+### Answer
+
+👉🏼 Check out all 19 answers here: [Devinterview.io - Hash Tables](https://devinterview.io/data/hashTables-interview-questions)
+
+---
+
+## 🔹 14. What are the advantages of _Tries_ over _Hash Tables_?
+
+### Answer
+
+👉🏼 Check out all 19 answers here: [Devinterview.io - Hash Tables](https://devinterview.io/data/hashTables-interview-questions)
+
+---
+
+## 🔹 15. What is the difference between _HashMaps_ and _HashTables_?
+
+### Answer
+
+👉🏼 Check out all 19 answers here: [Devinterview.io - Hash Tables](https://devinterview.io/data/hashTables-interview-questions)
+
+---
+
+## 🔹 16. Detect if a _List_ is _Cyclic_ using _Hash Table_.
+
+### Answer
+
+👉🏼 Check out all 19 answers here: [Devinterview.io - Hash Tables](https://devinterview.io/data/hashTables-interview-questions)
+
+---
+
+## 🔹 17. Remove _Duplicates_ from an _Unsorted Linked List_.
+
+### Answer
+
+👉🏼 Check out all 19 answers here: [Devinterview.io - Hash Tables](https://devinterview.io/data/hashTables-interview-questions)
+
+---
+
+## 🔹 18. Find _Common Elements_ in two given _Linked Lists_ and return them as a new _Linked List_.
+
+### Answer
+
+👉🏼 Check out all 19 answers here: [Devinterview.io - Hash Tables](https://devinterview.io/data/hashTables-interview-questions)
+
+---
+
+## 🔹 19. Pair socks from a pile using a _Hash Table_.
+
+### Answer
+
+👉🏼 Check out all 19 answers here: [Devinterview.io - Hash Tables](https://devinterview.io/data/hashTables-interview-questions)
+
+---
+
