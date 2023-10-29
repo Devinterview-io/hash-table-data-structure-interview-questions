@@ -4,7 +4,7 @@
 
 Check out our carefully selected list of **basic** and **advanced** Hash Tables questions and answers to be well-prepared for your tech interviews in 2024.
 
-![Hash Tables Decorative Image](https://storage.googleapis.com/dev-stack-app.appspot.com/blogImg/hashTables.png?GoogleAccessId=firebase-adminsdk-bgeaf%40dev-stack-app.iam.gserviceaccount.com&Expires=1698605921&Signature=EJ5qV9vlokQXzpbQ1fuuOI06RnPH3YdE9MgVcKvEU4ukgxXLTAB0jt1SJDrMHuQ%2F8vJbhqOA%2F1KVcNEhHpwaM4mPcMdhEDAbP5uVh%2BIVPhjnujQ299Y6zSemw%2FvLP8fxeEJBCv6KpXwA7okz4usq6SRhKnA9mLZ2GSW7hpgiKyrAFG%2FinpvBgXV0Zw%2Fhn63R8ckb3sG5IGY9jmWFvPjf2dNzLOBOW8NQ3Q%2FMcA3domZa1P8j4JH9QtXhblt4qWXb58vta06GvXzHa7hexovSzJx1VXGRgEpr3PABnWiiv1i7f3Qgd11CC4dEHDFR2cBWLClfUs5z9iIhFjwQCzLNog%3D%3D)
+![Hash Tables Decorative Image](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/blogImg%2FhashTables.png?alt=media&token=d00c0e98-30ed-4ba8-85c2-cdbf574874aa&_gl=1*1nxrl9x*_ga*OTYzMjY5NTkwLjE2ODg4NDM4Njg.*_ga_CW55HF8NVT*MTY5ODYwNTk1NS4xOTAuMS4xNjk4NjA3MjE2LjYwLjAuMA..)
 
 👉🏼 You can also find all answers here: [Devinterview.io - Hash Tables](https://devinterview.io/data/hashTables-interview-questions)
 
