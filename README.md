@@ -1,4 +1,4 @@
-# 39 Must-Know Hash Table Data Structure Interview Questions in 2025
+# 39 Must-Know Hash Table Data Structure Interview Questions in 2026
 
 <div>
 <p align="center">
